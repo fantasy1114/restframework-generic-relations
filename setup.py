@@ -7,7 +7,7 @@ from os.path import abspath, dirname, join
 
 def read_relative_file(filename):
     """
-    Returns contents of the given file, whose path is supposed relative
+    This Returns contents of the given file, whose path is supposed relative
     to this module.
     """
     with open(join(dirname(abspath(__file__)), filename), "r") as f:
